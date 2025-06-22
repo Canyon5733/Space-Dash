@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Space Dash Game</title>
+  <link rel="stylesheet" href="design.css">
+  <link rel="icon" type="image/png" href="assets/logo/logo.png">
+</head>
+<body>
+
+  <div id="health" class="health">
+    <span>❤️</span>
+    <span>❤️</span>
+    <span>❤️</span>
+  </div>
+  
+  <div id="score" class="score">
+    <span>Score: </span><span id="scoreValue">0</span>
+  </div>
+
+  <button id="settingsBtn" class="settings-btn" title="Settings">
+  <img src="assets/ui/setting.png" alt="Settings" style="width: 40px; height: 40px; opacity: 0.7;">
+  </button>
+
+  <div id="settingsPopup" class="settings-popup">
+  <h3>Settings</h3>
+  <label class="mute-label">
+    <input type="checkbox" id="muteCheckbox">
+    Mute Sound
+  </label>
+  <button id="closeSettings" class="close-settings-btn">Close</button>
+  </div>  
+
+  <div id="ammo" class="ammo">
+  <span>Ammo: </span><span id="ammoCount">20</span>
+  </div>  
+  <div id="reloadUI">
+    Reloading...
+  </div>
+  <div class="status" id="GameOver">
+    <h2>Game Over</h2>
+    <br/><br/>
+    <div id="Kills">0</div>
+    <div id="Score">0</div>
+    <div id="HighestScore">0</div>
+    <br/><br/>
+    <h3>Press Space To Play Again</h3>
+  </div>
+
+  <div class="status" id="PauseMenu">
+  <h2>Game Paused</h2>
+  <br>
+  <p>Press <strong>ESC</strong> to Resume</p>
+  </div>
+
+  <div class="status" id="Start">
+    <h2>Space Dash Game</h2>
+    <br>Use W,A,S,D To Move, Q For Using Skill
+    <br>Enter To Shoot
+    <br><br>Go Full Screen For Better View <br>
+    <br>
+    <h3>Press Space To Play</h3>
+  </div>
+</div>
+  <script>
+    window.onload = function() {
+      document.getElementById('Start').style.display = 'block';
+      document.getElementById('GameOver').style.display = 'none';
+    };
+    
+  </script>
+    <script> src = "script.js"</script>>
+    <script> src = "three.min.js"</script>
+    <script type="module" src="game.js"></script>
+    
+</body>
+</html>

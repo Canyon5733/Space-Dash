@@ -1,0 +1,10 @@
+Tên đề tài / Tên ứng dụng/ tên đồ án
+
+1. Giới thiệu đồ án
+2. Khảo sát các ứng dụng hoặc các đề tài khác có liên quan hoặc đã có
+3. Các chức năng chính của đồ án
+4. Cơ sở lý thuyết thực hiện đồ án
+5. Chương trình: Mô tả chức năng và hình ảnh minh họa cho chương trình
+6. Phân công công việc các thành viên trong nhóm
+7. Kết luận và hướng phát triển: Trình bày các chức năng đã thực hiện được và chưa thực hiện được và hướng phát triển.
+Tài liệu tham khảo
